@@ -17,3 +17,18 @@ mvn exec:java -Dexec.args="examples/errores.cps"
 
 Los archivos `CompiscriptLexer.java`, `CompiscriptParser.java`, `CompiscriptListener.java`
 y `CompiscriptBaseListener.java` fueron generados por ANTLR y no deben editarse manualmente.
+
+## Interfaz gráfica
+
+La aplicación de escritorio permite abrir archivos `.cps`, ver su código y consultar
+errores léxicos y sintácticos en una tabla. Se ejecuta con:
+
+```bash
+.\mvnw.cmd compile exec:java@gui
+```
+
+En Windows se recomienda el Maven Wrapper incluido, por lo que no es necesario
+instalar Maven globalmente. En macOS o Linux use `./mvnw`.
+
+La guía completa, incluidos los ocho casos de demostración de la rúbrica, está en
+[INTERFAZ_GRAFICA.md](INTERFAZ_GRAFICA.md).

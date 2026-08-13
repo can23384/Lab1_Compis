@@ -2,6 +2,7 @@ CompiscriptParser$PropertyAccessExprContext.class
 ParserErrorListener.class
 CompiscriptListener.class
 CompiscriptParser$InitializerContext.class
+CompiscriptGui$2.class
 CompiscriptParser$ReturnStatementContext.class
 CompiscriptParser$ThisExprContext.class
 CompiscriptParser$IdentifierExprContext.class
@@ -15,6 +16,7 @@ ErrorCollector.class
 CompiscriptParser$NewExprContext.class
 CompiscriptParser$ClassMemberContext.class
 CompiscriptBaseListener.class
+CompiscriptGui$1.class
 CompiscriptParser$BreakStatementContext.class
 AnalysisError.class
 CompiscriptParser$ParametersContext.class
@@ -43,6 +45,8 @@ CompiscriptParser$ForStatementContext.class
 CompiscriptParser$PrimaryExprContext.class
 Main.class
 CompiscriptParser$LogicalAndExprContext.class
+LineNumberView.class
+CompiscriptGui$ErrorTableModel.class
 LexerErrorListener.class
 CompiscriptParser$ParameterContext.class
 CompiscriptParser$ClassDeclarationContext.class
@@ -60,9 +64,11 @@ CompiscriptParser$ProgramContext.class
 CompiscriptParser$AdditiveExprContext.class
 AnalysisResult.class
 CompiscriptParser$TypeContext.class
+CompiscriptGui.class
 CompiscriptParser$IfStatementContext.class
 CompiscriptParser$LeftHandSideContext.class
 CompiscriptParser$ConditionalExprContext.class
 AnalysisError$Type.class
 CompiscriptParser$CallExprContext.class
 CompiscriptParser$LiteralExprContext.class
+CompiscriptGui$ErrorCellRenderer.class
